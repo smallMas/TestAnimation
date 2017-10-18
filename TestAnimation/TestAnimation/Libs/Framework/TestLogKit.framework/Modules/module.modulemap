@@ -1,6 +1,0 @@
-framework module TestLogKit {
-  umbrella header "TestLogKit.h"
-
-  export *
-  module * { export * }
-}
