@@ -1,0 +1,6 @@
+framework module FJLogKit {
+  umbrella header "FJLogKit.h"
+
+  export *
+  module * { export * }
+}

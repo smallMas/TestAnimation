@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="TTCollectionCell">
+            <rect key="frame" x="0.0" y="0.0" width="80" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="80" height="100"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="25l-hH-hdL">
+                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="25l-hH-hdL" secondAttribute="height" multiplier="1:1" id="ZeH-Gk-ULN"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xej-V6-kzX">
+                        <rect key="frame" x="0.0" y="80" width="80" height="20"/>
+                        <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Xej-V6-kzX" secondAttribute="trailing" id="6Eg-n8-a24"/>
+                <constraint firstItem="25l-hH-hdL" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Z6H-XC-Umh"/>
+                <constraint firstItem="25l-hH-hdL" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="ZKJ-UK-1q8"/>
+                <constraint firstAttribute="bottom" secondItem="Xej-V6-kzX" secondAttribute="bottom" id="nk8-bU-swb"/>
+                <constraint firstItem="Xej-V6-kzX" firstAttribute="top" secondItem="25l-hH-hdL" secondAttribute="bottom" id="u9S-zf-w7V"/>
+                <constraint firstAttribute="trailing" secondItem="25l-hH-hdL" secondAttribute="trailing" id="zez-fQ-zoB"/>
+                <constraint firstItem="Xej-V6-kzX" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="zmj-br-SJF"/>
+            </constraints>
+            <connections>
+                <outlet property="imgView" destination="25l-hH-hdL" id="ecm-pX-MHh"/>
+                <outlet property="titleLabel" destination="Xej-V6-kzX" id="mO8-70-Xxe"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+</document>
