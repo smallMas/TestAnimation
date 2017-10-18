@@ -27,6 +27,8 @@
     [self.window setBackgroundColor:[UIColor whiteColor]];
     [self.window makeKeyWindow];
     
+    // 注释程序启动方法
+    
     return YES;
 }
 
