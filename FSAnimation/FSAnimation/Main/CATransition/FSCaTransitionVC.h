@@ -6,8 +6,8 @@
 //  Copyright © 2017年 love. All rights reserved.
 //
 
-#import "FSBaseVC.h"
+#import "FSTableVC.h"
 
-@interface FSCaTransitionVC : FSBaseVC
+@interface FSCaTransitionVC : FSTableVC
 
 @end

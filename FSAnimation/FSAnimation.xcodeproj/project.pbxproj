@@ -19,6 +19,7 @@
 		9CED15F31F97225B00BEBE2F /* FSBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CED15F21F97225B00BEBE2F /* FSBaseVC.m */; };
 		9CED15F61F97226C00BEBE2F /* FSMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CED15F51F97226C00BEBE2F /* FSMainVC.m */; };
 		9CED15F91F97228600BEBE2F /* FSCaTransitionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CED15F81F97228600BEBE2F /* FSCaTransitionVC.m */; };
+		9CED15FC1F97284100BEBE2F /* FSTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CED15FB1F97284100BEBE2F /* FSTableVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,8 @@
 		9CED15F51F97226C00BEBE2F /* FSMainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSMainVC.m; sourceTree = "<group>"; };
 		9CED15F71F97228600BEBE2F /* FSCaTransitionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCaTransitionVC.h; sourceTree = "<group>"; };
 		9CED15F81F97228600BEBE2F /* FSCaTransitionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCaTransitionVC.m; sourceTree = "<group>"; };
+		9CED15FA1F97284100BEBE2F /* FSTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTableVC.h; sourceTree = "<group>"; };
+		9CED15FB1F97284100BEBE2F /* FSTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSTableVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +162,8 @@
 				9CED15F01F97223500BEBE2F /* CATransition */,
 				9CED15F11F97225B00BEBE2F /* FSBaseVC.h */,
 				9CED15F21F97225B00BEBE2F /* FSBaseVC.m */,
+				9CED15FA1F97284100BEBE2F /* FSTableVC.h */,
+				9CED15FB1F97284100BEBE2F /* FSTableVC.m */,
 				9CED15F41F97226C00BEBE2F /* FSMainVC.h */,
 				9CED15F51F97226C00BEBE2F /* FSMainVC.m */,
 			);
@@ -307,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CED15FC1F97284100BEBE2F /* FSTableVC.m in Sources */,
 				9CED15F91F97228600BEBE2F /* FSCaTransitionVC.m in Sources */,
 				9CED15C11F971F5800BEBE2F /* ViewController.m in Sources */,
 				9CED15C71F971F5800BEBE2F /* FSAnimation.xcdatamodeld in Sources */,

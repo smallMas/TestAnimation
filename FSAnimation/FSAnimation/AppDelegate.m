@@ -21,7 +21,8 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
     FSMainVC *main = [FSMainVC new];
-    self.window.rootViewController = main;
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:main];
+    self.window.rootViewController = nav;
     
     [self.window setBackgroundColor:[UIColor whiteColor]];
     [self.window makeKeyWindow];
