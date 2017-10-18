@@ -16,6 +16,9 @@
 		9CED15CC1F971F5800BEBE2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CED15CA1F971F5800BEBE2F /* LaunchScreen.storyboard */; };
 		9CED15D71F971F5800BEBE2F /* FSAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CED15D61F971F5800BEBE2F /* FSAnimationTests.m */; };
 		9CED15E21F971F5800BEBE2F /* FSAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CED15E11F971F5800BEBE2F /* FSAnimationUITests.m */; };
+		9CED15F31F97225B00BEBE2F /* FSBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CED15F21F97225B00BEBE2F /* FSBaseVC.m */; };
+		9CED15F61F97226C00BEBE2F /* FSMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CED15F51F97226C00BEBE2F /* FSMainVC.m */; };
+		9CED15F91F97228600BEBE2F /* FSCaTransitionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CED15F81F97228600BEBE2F /* FSCaTransitionVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		9CED15DD1F971F5800BEBE2F /* FSAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FSAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CED15E11F971F5800BEBE2F /* FSAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FSAnimationUITests.m; sourceTree = "<group>"; };
 		9CED15E31F971F5800BEBE2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CED15F11F97225B00BEBE2F /* FSBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSBaseVC.h; sourceTree = "<group>"; };
+		9CED15F21F97225B00BEBE2F /* FSBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSBaseVC.m; sourceTree = "<group>"; };
+		9CED15F41F97226C00BEBE2F /* FSMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSMainVC.h; sourceTree = "<group>"; };
+		9CED15F51F97226C00BEBE2F /* FSMainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSMainVC.m; sourceTree = "<group>"; };
+		9CED15F71F97228600BEBE2F /* FSCaTransitionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCaTransitionVC.h; sourceTree = "<group>"; };
+		9CED15F81F97228600BEBE2F /* FSCaTransitionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCaTransitionVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +112,7 @@
 		9CED15B81F971F5800BEBE2F /* FSAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				9CED15EF1F97223500BEBE2F /* Main */,
 				9CED15BC1F971F5800BEBE2F /* AppDelegate.h */,
 				9CED15BD1F971F5800BEBE2F /* AppDelegate.m */,
 				9CED15BF1F971F5800BEBE2F /* ViewController.h */,
@@ -141,6 +151,27 @@
 				9CED15E31F971F5800BEBE2F /* Info.plist */,
 			);
 			path = FSAnimationUITests;
+			sourceTree = "<group>";
+		};
+		9CED15EF1F97223500BEBE2F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9CED15F01F97223500BEBE2F /* CATransition */,
+				9CED15F11F97225B00BEBE2F /* FSBaseVC.h */,
+				9CED15F21F97225B00BEBE2F /* FSBaseVC.m */,
+				9CED15F41F97226C00BEBE2F /* FSMainVC.h */,
+				9CED15F51F97226C00BEBE2F /* FSMainVC.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		9CED15F01F97223500BEBE2F /* CATransition */ = {
+			isa = PBXGroup;
+			children = (
+				9CED15F71F97228600BEBE2F /* FSCaTransitionVC.h */,
+				9CED15F81F97228600BEBE2F /* FSCaTransitionVC.m */,
+			);
+			path = CATransition;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,9 +307,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CED15F91F97228600BEBE2F /* FSCaTransitionVC.m in Sources */,
 				9CED15C11F971F5800BEBE2F /* ViewController.m in Sources */,
 				9CED15C71F971F5800BEBE2F /* FSAnimation.xcdatamodeld in Sources */,
+				9CED15F61F97226C00BEBE2F /* FSMainVC.m in Sources */,
 				9CED15BE1F971F5800BEBE2F /* AppDelegate.m in Sources */,
+				9CED15F31F97225B00BEBE2F /* FSBaseVC.m in Sources */,
 				9CED15BB1F971F5800BEBE2F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -513,6 +547,7 @@
 				9CED15E81F971F5800BEBE2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9CED15E91F971F5800BEBE2F /* Build configuration list for PBXNativeTarget "FSAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +556,7 @@
 				9CED15EB1F971F5800BEBE2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9CED15EC1F971F5800BEBE2F /* Build configuration list for PBXNativeTarget "FSAnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +565,7 @@
 				9CED15EE1F971F5800BEBE2F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
