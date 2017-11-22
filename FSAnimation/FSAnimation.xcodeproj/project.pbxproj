@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9CA004341FC5556300DEF7FE /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA004331FC5556300DEF7FE /* FirstViewController.m */; };
 		9CED15BB1F971F5800BEBE2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CED15BA1F971F5800BEBE2F /* main.m */; };
 		9CED15BE1F971F5800BEBE2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CED15BD1F971F5800BEBE2F /* AppDelegate.m */; };
 		9CED15C11F971F5800BEBE2F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CED15C01F971F5800BEBE2F /* ViewController.m */; };
@@ -40,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9CA004321FC5556300DEF7FE /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		9CA004331FC5556300DEF7FE /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		9CED15B61F971F5800BEBE2F /* FSAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FSAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CED15BA1F971F5800BEBE2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9CED15BC1F971F5800BEBE2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -166,6 +169,8 @@
 				9CED15FB1F97284100BEBE2F /* FSTableVC.m */,
 				9CED15F41F97226C00BEBE2F /* FSMainVC.h */,
 				9CED15F51F97226C00BEBE2F /* FSMainVC.m */,
+				9CA004321FC5556300DEF7FE /* FirstViewController.h */,
+				9CA004331FC5556300DEF7FE /* FirstViewController.m */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -313,6 +318,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CED15FC1F97284100BEBE2F /* FSTableVC.m in Sources */,
+				9CA004341FC5556300DEF7FE /* FirstViewController.m in Sources */,
 				9CED15F91F97228600BEBE2F /* FSCaTransitionVC.m in Sources */,
 				9CED15C11F971F5800BEBE2F /* ViewController.m in Sources */,
 				9CED15C71F971F5800BEBE2F /* FSAnimation.xcdatamodeld in Sources */,
